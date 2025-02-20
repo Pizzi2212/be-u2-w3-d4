@@ -15,6 +15,7 @@ public class Libro {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column(nullable = false)
     private String titolo;
     private String autore;
     private String editore;
