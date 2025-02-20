@@ -21,4 +21,5 @@ public class Libro {
     private String editore;
     private String anno;
     private String genere;
+    private String descrizione; //mo la elimino
 }
